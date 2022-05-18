@@ -1,0 +1,18 @@
+.box {
+    width: 150px;
+    height: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(181, 21, 21);
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.box>span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
